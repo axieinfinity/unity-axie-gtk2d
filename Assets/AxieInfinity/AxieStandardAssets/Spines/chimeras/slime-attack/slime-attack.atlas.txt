@@ -1,0 +1,132 @@
+
+slime-attack.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 395
+  size: 300, 276
+  orig: 300, 276
+  offset: 0, 0
+  index: -1
+eyes-01
+  rotate: false
+  xy: 462, 617
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1
+eyes-02
+  rotate: false
+  xy: 462, 561
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: false
+  xy: 2, 2
+  size: 277, 74
+  orig: 277, 74
+  offset: 0, 0
+  index: -1
+eyes-shut-02
+  rotate: false
+  xy: 2, 156
+  size: 284, 76
+  orig: 284, 76
+  offset: 0, 0
+  index: -1
+eyes-shut-03
+  rotate: false
+  xy: 2, 78
+  size: 284, 76
+  orig: 284, 76
+  offset: 0, 0
+  index: -1
+mouth-01
+  rotate: false
+  xy: 407, 348
+  size: 83, 74
+  orig: 83, 74
+  offset: 0, 0
+  index: -1
+mouth-02
+  rotate: false
+  xy: 304, 330
+  size: 101, 115
+  orig: 101, 115
+  offset: 0, 0
+  index: -1
+mouth-02-back
+  rotate: false
+  xy: 450, 466
+  size: 56, 50
+  orig: 56, 50
+  offset: 0, 0
+  index: -1
+part-1
+  rotate: false
+  xy: 462, 518
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+part-2
+  rotate: false
+  xy: 298, 256
+  size: 77, 72
+  orig: 77, 72
+  offset: 0, 0
+  index: -1
+part-3
+  rotate: false
+  xy: 304, 447
+  size: 144, 109
+  orig: 144, 109
+  offset: 0, 0
+  index: -1
+part-4
+  rotate: false
+  xy: 304, 558
+  size: 156, 113
+  orig: 156, 113
+  offset: 0, 0
+  index: -1
+part-5
+  rotate: false
+  xy: 361, 164
+  size: 111, 83
+  orig: 111, 83
+  offset: 0, 0
+  index: -1
+part-6
+  rotate: false
+  xy: 298, 179
+  size: 61, 75
+  orig: 61, 75
+  offset: 0, 0
+  index: -1
+part-7
+  rotate: false
+  xy: 450, 424
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 234
+  size: 294, 159
+  orig: 294, 159
+  offset: 0, 0
+  index: -1
+shadow_head
+  rotate: false
+  xy: 407, 249
+  size: 62, 97
+  orig: 62, 97
+  offset: 0, 0
+  index: -1

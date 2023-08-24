@@ -1,0 +1,293 @@
+
+dryad-fighter.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 10
+  rotate: false
+  xy: 2, 31
+  size: 187, 125
+  orig: 187, 125
+  offset: 0, 0
+  index: -1
+Layer 11
+  rotate: false
+  xy: 499, 517
+  size: 129, 82
+  orig: 129, 82
+  offset: 0, 0
+  index: -1
+arm-left
+  rotate: false
+  xy: 1029, 243
+  size: 143, 282
+  orig: 143, 282
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 632, 59
+  size: 158, 294
+  orig: 158, 294
+  offset: 0, 0
+  index: -1
+arm_leaf
+  rotate: false
+  xy: 907, 530
+  size: 46, 79
+  orig: 46, 79
+  offset: 0, 0
+  index: -1
+beard-front
+  rotate: false
+  xy: 983, 717
+  size: 445, 97
+  orig: 445, 97
+  offset: 0, 0
+  index: -1
+beetel-wing-right
+  rotate: false
+  xy: 353, 118
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+beetle-body
+  rotate: false
+  xy: 277, 121
+  size: 37, 35
+  orig: 37, 35
+  offset: 0, 0
+  index: -1
+beetle-head
+  rotate: false
+  xy: 1004, 534
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+beetle-wing-back
+  rotate: false
+  xy: 955, 523
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+beetle-wing-left
+  rotate: false
+  xy: 316, 121
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 516
+  size: 495, 500
+  orig: 495, 500
+  offset: 0, 0
+  index: -1
+eye-brow
+  rotate: false
+  xy: 981, 534
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+eye-left
+  rotate: false
+  xy: 235, 120
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+eye-right
+  rotate: false
+  xy: 283, 85
+  size: 34, 34
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+finger-left-01
+  rotate: false
+  xy: 771, 522
+  size: 75, 77
+  orig: 75, 77
+  offset: 0, 0
+  index: -1
+finger-left-02
+  rotate: false
+  xy: 191, 86
+  size: 42, 70
+  orig: 42, 70
+  offset: 0, 0
+  index: -1
+finger-left-03
+  rotate: false
+  xy: 955, 553
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+finger-right-01
+  rotate: false
+  xy: 848, 532
+  size: 57, 77
+  orig: 57, 77
+  offset: 0, 0
+  index: -1
+finger-right-02
+  rotate: false
+  xy: 230, 30
+  size: 51, 54
+  orig: 51, 54
+  offset: 0, 0
+  index: -1
+foot-left
+  rotate: false
+  xy: 388, 73
+  size: 242, 280
+  orig: 242, 280
+  offset: 0, 0
+  index: -1
+foot-right
+  rotate: false
+  xy: 388, 73
+  size: 242, 280
+  orig: 242, 280
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: false
+  xy: 805, 181
+  size: 222, 339
+  orig: 222, 339
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: false
+  xy: 1510, 156
+  size: 143, 376
+  orig: 143, 376
+  offset: 0, 0
+  index: -1
+fx/Slash03
+  rotate: false
+  xy: 1293, 828
+  size: 192, 188
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+fx/Slash05
+  rotate: false
+  xy: 1023, 527
+  size: 192, 188
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+fx/Slash07
+  rotate: false
+  xy: 1067, 53
+  size: 192, 188
+  orig: 192, 188
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 158
+  size: 384, 195
+  orig: 384, 195
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 1217, 531
+  size: 140, 184
+  orig: 140, 184
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: false
+  xy: 1319, 353
+  size: 146, 176
+  orig: 146, 176
+  offset: 0, 0
+  index: -1
+hand-root-01
+  rotate: false
+  xy: 786, 611
+  size: 195, 405
+  orig: 195, 405
+  offset: 0, 0
+  index: -1
+hand-root-02
+  rotate: false
+  xy: 499, 601
+  size: 285, 415
+  orig: 285, 415
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 792, 2
+  size: 273, 177
+  orig: 273, 177
+  offset: 0, 0
+  index: -1
+head-under
+  rotate: false
+  xy: 983, 816
+  size: 308, 200
+  orig: 308, 200
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 191, 6
+  size: 37, 78
+  orig: 37, 78
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 1261, 6
+  size: 141, 255
+  orig: 141, 255
+  offset: 0, 0
+  index: -1
+leg-right
+  rotate: false
+  xy: 1174, 263
+  size: 143, 262
+  orig: 143, 262
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 630, 531
+  size: 139, 68
+  orig: 139, 68
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 355
+  size: 801, 159
+  orig: 801, 159
+  offset: 0, 0
+  index: -1
+thigh-left
+  rotate: false
+  xy: 1430, 534
+  size: 104, 292
+  orig: 104, 292
+  offset: 0, 0
+  index: -1
+thigh-right
+  rotate: false
+  xy: 1404, 59
+  size: 104, 292
+  orig: 104, 292
+  offset: 0, 0
+  index: -1

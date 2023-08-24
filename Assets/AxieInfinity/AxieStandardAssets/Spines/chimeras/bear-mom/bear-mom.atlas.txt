@@ -1,0 +1,272 @@
+
+bear-mom.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left
+  rotate: false
+  xy: 104, 32
+  size: 100, 161
+  orig: 100, 161
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 2, 31
+  size: 100, 162
+  orig: 100, 162
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 195
+  size: 291, 315
+  orig: 291, 315
+  offset: 0, 0
+  index: -1
+body-lower
+  rotate: false
+  xy: 1010, 411
+  size: 290, 99
+  orig: 290, 99
+  offset: 0, 0
+  index: -1
+cockroach
+  rotate: false
+  xy: 532, 34
+  size: 67, 34
+  orig: 67, 34
+  offset: 0, 0
+  index: -1
+cuff-left
+  rotate: false
+  xy: 911, 388
+  size: 97, 122
+  orig: 97, 122
+  offset: 0, 0
+  index: -1
+cuff-right
+  rotate: false
+  xy: 911, 264
+  size: 97, 122
+  orig: 97, 122
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: false
+  xy: 1188, 135
+  size: 85, 88
+  orig: 85, 88
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: false
+  xy: 1112, 133
+  size: 74, 90
+  orig: 74, 90
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1300, 337
+  size: 124, 72
+  orig: 124, 72
+  offset: 0, 0
+  index: -1
+eyes-angry
+  rotate: false
+  xy: 1275, 159
+  size: 126, 69
+  orig: 126, 69
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 1302, 439
+  size: 127, 71
+  orig: 127, 71
+  offset: 0, 0
+  index: -1
+foot-left
+  rotate: false
+  xy: 206, 9
+  size: 103, 44
+  orig: 103, 44
+  offset: 0, 0
+  index: -1
+foot-right
+  rotate: false
+  xy: 206, 9
+  size: 103, 44
+  orig: 103, 44
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: false
+  xy: 820, 120
+  size: 87, 132
+  orig: 87, 132
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: false
+  xy: 909, 120
+  size: 87, 132
+  orig: 87, 132
+  offset: 0, 0
+  index: -1
+fur-face-left
+  rotate: false
+  xy: 426, 2
+  size: 58, 66
+  orig: 58, 66
+  offset: 0, 0
+  index: -1
+fur-face-right
+  rotate: false
+  xy: 486, 30
+  size: 44, 38
+  orig: 44, 38
+  offset: 0, 0
+  index: -1
+fx/smoke
+  rotate: false
+  xy: 1216, 327
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+fx/tear
+  rotate: false
+  xy: 2, 7
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 1010, 318
+  size: 109, 91
+  orig: 109, 91
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: false
+  xy: 1121, 318
+  size: 93, 91
+  orig: 93, 91
+  offset: 0, 0
+  index: -1
+hand-right-back
+  rotate: false
+  xy: 1112, 225
+  size: 95, 91
+  orig: 95, 91
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 295, 210
+  size: 377, 300
+  orig: 377, 300
+  offset: 0, 0
+  index: -1
+horn
+  rotate: false
+  xy: 998, 144
+  size: 112, 118
+  orig: 112, 118
+  offset: 0, 0
+  index: -1
+horn-shadow
+  rotate: false
+  xy: 311, 15
+  size: 113, 38
+  orig: 113, 38
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 608, 74
+  size: 104, 134
+  orig: 104, 134
+  offset: 0, 0
+  index: -1
+leg-right
+  rotate: false
+  xy: 714, 118
+  size: 104, 134
+  orig: 104, 134
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 206, 55
+  size: 132, 138
+  orig: 132, 138
+  offset: 0, 0
+  index: -1
+mouth-bite
+  rotate: false
+  xy: 340, 70
+  size: 132, 138
+  orig: 132, 138
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 474, 70
+  size: 132, 138
+  orig: 132, 138
+  offset: 0, 0
+  index: -1
+paper-face
+  rotate: false
+  xy: 532, 3
+  size: 24, 29
+  orig: 24, 29
+  offset: 0, 0
+  index: -1
+rope-back
+  rotate: false
+  xy: 601, 36
+  size: 292, 32
+  orig: 292, 32
+  offset: 0, 0
+  index: -1
+rope-front
+  rotate: false
+  xy: 1403, 160
+  size: 82, 68
+  orig: 82, 68
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 895, 7
+  size: 558, 111
+  orig: 558, 111
+  offset: 0, 0
+  index: -1
+shield
+  rotate: false
+  xy: 674, 254
+  size: 235, 256
+  orig: 235, 256
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 36, 14
+  size: 12, 15
+  orig: 12, 15
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 1209, 230
+  size: 305, 86
+  orig: 305, 86
+  offset: 0, 0
+  index: -1

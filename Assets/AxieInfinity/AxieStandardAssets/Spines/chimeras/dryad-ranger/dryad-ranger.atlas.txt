@@ -1,0 +1,307 @@
+
+dryad-ranger.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Z
+  rotate: false
+  xy: 871, 92
+  size: 90, 84
+  orig: 90, 84
+  offset: 0, 0
+  index: -1
+arm-left
+  rotate: false
+  xy: 1048, 379
+  size: 207, 160
+  orig: 207, 160
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 2, 416
+  size: 301, 154
+  orig: 301, 154
+  offset: 0, 0
+  index: -1
+beard
+  rotate: false
+  xy: 718, 506
+  size: 328, 118
+  orig: 328, 118
+  offset: 0, 0
+  index: -1
+boby-fx
+  rotate: false
+  xy: 905, 178
+  size: 100, 112
+  orig: 100, 112
+  offset: 0, 0
+  index: -1
+body-00
+  rotate: false
+  xy: 2, 572
+  size: 333, 450
+  orig: 333, 450
+  offset: 0, 0
+  index: -1
+body-01
+  rotate: false
+  xy: 337, 602
+  size: 379, 420
+  orig: 379, 420
+  offset: 0, 0
+  index: -1
+body-02-a
+  rotate: false
+  xy: 1007, 63
+  size: 83, 126
+  orig: 83, 126
+  offset: 0, 0
+  index: -1
+body-02-b
+  rotate: false
+  xy: 1186, 564
+  size: 261, 314
+  orig: 261, 314
+  offset: 0, 0
+  index: -1
+eye-brow-left
+  rotate: false
+  xy: 491, 151
+  size: 189, 180
+  orig: 189, 180
+  offset: 0, 0
+  index: -1
+eye-brow-right
+  rotate: false
+  xy: 905, 292
+  size: 137, 212
+  orig: 137, 212
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 226, 127
+  size: 40, 36
+  orig: 40, 36
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: false
+  xy: 1591, 650
+  size: 196, 372
+  orig: 196, 372
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: false
+  xy: 2, 75
+  size: 222, 339
+  orig: 222, 339
+  offset: 0, 0
+  index: -1
+fur-body-01
+  rotate: false
+  xy: 155, 8
+  size: 132, 65
+  orig: 132, 65
+  offset: 0, 0
+  index: -1
+fur-body-02
+  rotate: false
+  xy: 1567, 243
+  size: 143, 105
+  orig: 143, 105
+  offset: 0, 0
+  index: -1
+fur-body-03
+  rotate: false
+  xy: 226, 240
+  size: 52, 24
+  orig: 52, 24
+  offset: 0, 0
+  index: -1
+fur-body-04
+  rotate: false
+  xy: 226, 374
+  size: 76, 40
+  orig: 76, 40
+  offset: 0, 0
+  index: -1
+fur-body-05
+  rotate: false
+  xy: 2, 7
+  size: 151, 66
+  orig: 151, 66
+  offset: 0, 0
+  index: -1
+fur-body-06
+  rotate: false
+  xy: 1449, 652
+  size: 109, 75
+  orig: 109, 75
+  offset: 0, 0
+  index: -1
+fur-body-07
+  rotate: false
+  xy: 491, 333
+  size: 91, 84
+  orig: 91, 84
+  offset: 0, 0
+  index: -1
+fur-hand-left-01
+  rotate: false
+  xy: 226, 165
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: -1
+fur-hand-left-02
+  rotate: false
+  xy: 1257, 411
+  size: 80, 37
+  orig: 80, 37
+  offset: 0, 0
+  index: -1
+fur-hand-left-03
+  rotate: false
+  xy: 491, 2
+  size: 175, 147
+  orig: 175, 147
+  offset: 0, 0
+  index: -1
+fxa
+  rotate: false
+  xy: 1044, 191
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1
+fxb
+  rotate: false
+  xy: 226, 189
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+ganoderma-01
+  rotate: false
+  xy: 682, 78
+  size: 187, 127
+  orig: 187, 127
+  offset: 0, 0
+  index: -1
+ganoderma-02
+  rotate: false
+  xy: 1048, 541
+  size: 130, 83
+  orig: 130, 83
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 1232, 227
+  size: 177, 150
+  orig: 177, 150
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: false
+  xy: 1449, 729
+  size: 140, 149
+  orig: 140, 149
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 718, 626
+  size: 466, 396
+  orig: 466, 396
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 718, 207
+  size: 185, 297
+  orig: 185, 297
+  offset: 0, 0
+  index: -1
+leg-right
+  rotate: false
+  xy: 1449, 350
+  size: 188, 298
+  orig: 188, 298
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 1411, 205
+  size: 154, 143
+  orig: 154, 143
+  offset: 0, 0
+  index: -1
+mouth-2
+  rotate: false
+  xy: 1232, 125
+  size: 152, 100
+  orig: 152, 100
+  offset: 0, 0
+  index: -1
+mouth-close
+  rotate: false
+  xy: 1257, 450
+  size: 161, 112
+  orig: 161, 112
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 226, 266
+  size: 68, 106
+  orig: 68, 106
+  offset: 0, 0
+  index: -1
+rope
+  rotate: false
+  xy: 226, 89
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1186, 880
+  size: 403, 142
+  orig: 403, 142
+  offset: 0, 0
+  index: -1
+thigh-left
+  rotate: false
+  xy: 592, 396
+  size: 124, 204
+  orig: 124, 204
+  offset: 0, 0
+  index: -1
+thigh-right
+  rotate: false
+  xy: 337, 419
+  size: 253, 181
+  orig: 253, 181
+  offset: 0, 0
+  index: -1
+thumb-left
+  rotate: false
+  xy: 584, 341
+  size: 104, 53
+  orig: 104, 53
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 305, 37
+  size: 184, 380
+  orig: 184, 380
+  offset: 0, 0
+  index: -1

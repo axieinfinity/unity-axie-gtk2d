@@ -1,0 +1,4 @@
+﻿{
+	"name": "AxieMixerUnity",
+	"references": ["spine-unity", "AxieCore.AxieMixer"]
+}

@@ -1,0 +1,83 @@
+
+slime-forest-b.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 716, 716
+  orig: 716, 716
+  offset: 0, 0
+  index: -1
+body-line-thick
+  rotate: false
+  xy: 2, 720
+  size: 722, 725
+  orig: 722, 725
+  offset: 0, 0
+  index: -1
+body-line-thin
+  rotate: false
+  xy: 726, 720
+  size: 722, 725
+  orig: 722, 725
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1450, 835
+  size: 201, 59
+  orig: 201, 59
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: false
+  xy: 1450, 896
+  size: 220, 76
+  orig: 220, 76
+  offset: 0, 0
+  index: -1
+eyes-shut-02
+  rotate: false
+  xy: 1548, 1289
+  size: 222, 76
+  orig: 222, 76
+  offset: 0, 0
+  index: -1
+eyes-shut-03
+  rotate: false
+  xy: 1548, 1367
+  size: 226, 78
+  orig: 226, 78
+  offset: 0, 0
+  index: -1
+foot
+  rotate: false
+  xy: 1450, 974
+  size: 273, 267
+  orig: 273, 267
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 1450, 770
+  size: 97, 63
+  orig: 97, 63
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 1450, 1243
+  size: 96, 202
+  orig: 96, 202
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 720, 538
+  size: 717, 180
+  orig: 717, 180
+  offset: 0, 0
+  index: -1

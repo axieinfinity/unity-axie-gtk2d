@@ -1,0 +1,265 @@
+
+wolf-alpha.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 1723, 357
+  size: 98, 54
+  orig: 98, 54
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 1875, 985
+  size: 168, 207
+  orig: 168, 207
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 1875, 799
+  size: 166, 184
+  orig: 166, 184
+  offset: 0, 0
+  index: -1
+Skull-01
+  rotate: false
+  xy: 1302, 612
+  size: 440, 249
+  orig: 440, 249
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 643, 936
+  size: 675, 488
+  orig: 675, 488
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: false
+  xy: 1744, 413
+  size: 108, 231
+  orig: 108, 231
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: false
+  xy: 1621, 437
+  size: 119, 173
+  orig: 119, 173
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1723, 285
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+fur-01
+  rotate: false
+  xy: 1868, 585
+  size: 175, 212
+  orig: 175, 212
+  offset: 0, 0
+  index: -1
+fur-02
+  rotate: false
+  xy: 1517, 109
+  size: 198, 178
+  orig: 198, 178
+  offset: 0, 0
+  index: -1
+fur-03
+  rotate: false
+  xy: 1823, 119
+  size: 208, 240
+  orig: 208, 240
+  offset: 0, 0
+  index: -1
+fur-04
+  rotate: false
+  xy: 2, 75
+  size: 201, 220
+  orig: 201, 220
+  offset: 0, 0
+  index: -1
+fur-05
+  rotate: false
+  xy: 315, 282
+  size: 260, 253
+  orig: 260, 253
+  offset: 0, 0
+  index: -1
+fur-06
+  rotate: false
+  xy: 2, 297
+  size: 204, 227
+  orig: 204, 227
+  offset: 0, 0
+  index: -1
+fur-07
+  rotate: false
+  xy: 577, 133
+  size: 239, 168
+  orig: 239, 168
+  offset: 0, 0
+  index: -1
+fur-08
+  rotate: false
+  xy: 315, 537
+  size: 287, 269
+  orig: 287, 269
+  offset: 0, 0
+  index: -1
+fur-back
+  rotate: false
+  xy: 2, 808
+  size: 639, 616
+  orig: 639, 616
+  offset: 0, 0
+  index: -1
+fur-front
+  rotate: false
+  xy: 1320, 863
+  size: 553, 561
+  orig: 553, 561
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 1302, 289
+  size: 317, 321
+  orig: 317, 321
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 205, 108
+  size: 362, 172
+  orig: 362, 172
+  offset: 0, 0
+  index: -1
+horn-01
+  rotate: false
+  xy: 1854, 361
+  size: 189, 222
+  orig: 189, 222
+  offset: 0, 0
+  index: -1
+horn-02
+  rotate: false
+  xy: 1621, 322
+  size: 100, 113
+  orig: 100, 113
+  offset: 0, 0
+  index: -1
+jaw-under
+  rotate: false
+  xy: 1717, 2
+  size: 279, 115
+  orig: 279, 115
+  offset: 0, 0
+  index: -1
+jaw-upper
+  rotate: false
+  xy: 577, 303
+  size: 289, 144
+  orig: 289, 144
+  offset: 0, 0
+  index: -1
+leg-back-left-under
+  rotate: false
+  xy: 1744, 646
+  size: 122, 215
+  orig: 122, 215
+  offset: 0, 0
+  index: -1
+leg-back-left-upper
+  rotate: false
+  xy: 1875, 1194
+  size: 163, 230
+  orig: 163, 230
+  offset: 0, 0
+  index: -1
+leg-front-left-under
+  rotate: false
+  xy: 936, 481
+  size: 174, 212
+  orig: 174, 212
+  offset: 0, 0
+  index: -1
+leg-front-left-upper
+  rotate: false
+  xy: 1122, 697
+  size: 178, 237
+  orig: 178, 237
+  offset: 0, 0
+  index: -1
+leg-front-right-under
+  rotate: false
+  xy: 936, 267
+  size: 174, 212
+  orig: 174, 212
+  offset: 0, 0
+  index: -1
+leg-front-right-upper
+  rotate: false
+  xy: 1122, 458
+  size: 178, 237
+  orig: 178, 237
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 643, 695
+  size: 477, 239
+  orig: 477, 239
+  offset: 0, 0
+  index: -1
+oral-cavity
+  rotate: false
+  xy: 2, 526
+  size: 311, 280
+  orig: 311, 280
+  offset: 0, 0
+  index: -1
+paw-back-left
+  rotate: false
+  xy: 1112, 348
+  size: 186, 108
+  orig: 186, 108
+  offset: 0, 0
+  index: -1
+paw-front-left
+  rotate: false
+  xy: 818, 150
+  size: 199, 115
+  orig: 199, 115
+  offset: 0, 0
+  index: -1
+paw-front-right
+  rotate: false
+  xy: 818, 33
+  size: 199, 115
+  orig: 199, 115
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1112, 145
+  size: 403, 142
+  orig: 403, 142
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 604, 449
+  size: 330, 244
+  orig: 330, 244
+  offset: 0, 0
+  index: -1

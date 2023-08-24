@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "items": [
+    {
+      "name": "default",
+      "shaderName": "Custom/Texture Splatting Palette",
+      "keywords": []
+    },
+    {
+      "name": "graphic",
+      "shaderName": "Custom/Texture Splatting Graphic Palette",
+      "keywords": []
+    }
+  ]
+}
