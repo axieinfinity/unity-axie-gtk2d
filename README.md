@@ -15,6 +15,11 @@ Like the Axies, the Chimeras also have many characteristics that are a combinati
 ![Chimera](images/chimera.png?raw=true "Chimera")
 
 ## Other
-![Land items](images/land-item.png?raw=true "Land items")
 
+### Axie part cards
+Skill cards from axie battle v2 (classic). Game used `mouth`, `horns`, `back` and `tail` to design skills. We have 6 axie classes, each class have 4 parts, each part have 6 variants (except mouth only have 4).
 ![Axie part cards](images/axie-part-cards.png?raw=true "Axie part cards")
+
+### Land items
+Common materials and items that can be used for many kind of games.
+![Land items](images/land-item.png?raw=true "Land items")
