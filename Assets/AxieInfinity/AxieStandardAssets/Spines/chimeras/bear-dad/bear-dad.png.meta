@@ -162,7 +162,7 @@ TextureImporter:
       213: 2556359532094239547
     second: weapon
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -183,6 +183,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -221,6 +222,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -260,6 +262,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1396,6 +1410,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Slash-fx/2: 7080217089767749657
+      Slash-fx/3: -6291189204999687458
+      Slash-fx/4: 7759721860934162133
+      Slash-fx/5: -7972628382108148531
+      arm-left: 3693853873314175879
+      arm-right: 5276867651780395368
+      back: 1187961194834725857
+      body: 233227185538982242
+      brace: 4477483170218343476
+      ear-left: 5545147254357275158
+      ear-right: -6862386262013699167
+      eye-left: 3867891794441231665
+      eye-right: -3647499761783805530
+      eyebrow-left: 8821554775079021359
+      eyebrow-right: -7144681301016343499
+      foot-left: -1342957331754678596
+      foot-right: 7535142814955849673
+      forearm-left: 3411357244038191728
+      forearm-right: 4233007571920420759
+      greb: 1636254231992711739
+      hand-left: -6694792245731140020
+      hand-right-under: 4111651740318607587
+      hand-right-upper: 6425286562526776676
+      handler: 7338381659521732407
+      head: -1846784345090356148
+      head-shadow: 2901012097386407941
+      lace: 6555733858402272541
+      lace-left: -4108836543820362844
+      lace-right: -8989274909293901502
+      leg-left: -6912757223798728360
+      leg-right: 6461694418797130905
+      mangosteen: -6771129051858794637
+      moustache: 2562824958824732656
+      moustache2: -911799172507706464
+      mouth-bite: 175797113478569243
+      mouth-open1: -6194295003994500241
+      mouth-open2: -1210244720527973959
+      necklace: -3164632736019542162
+      nose: 158983605654032899
+      pant: -8701350436313568744
+      pant-left: 4117856021614911369
+      pant-right: 7724560781246293910
+      shadow: -209143576518600603
+      shield: -7302615292981491278
+      shield-left: 7373894553248262496
+      shuriken: -8443361483352683924
+      tomato: -2381562135814434103
+      trunk-01: 3575024233781304157
+      trunk-02: -6992302518027074789
+      trunk-03: 2987517315786315344
+      trunk-04: -8623846178615347922
+      water-drop: 6613755799340362507
+      weapon: 2556359532094239547
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
