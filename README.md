@@ -32,8 +32,10 @@ Common materials and items that can be used for many kind of games.
 
 ### Which `Spine Runtime Library` version should be used?
 - All spine assets used [(spine-unity 3.8 2021-11-10)](https://esotericsoftware.com/files/runtimes/unity/spine-unity-3.8-2021-11-10.unitypackage). You need to download it manualy, and put it on Plugins folder.
-- And by that, we recommended using unity 2019 or 2020 for avoid compatibility issues.
+- In unity 2020 or above, spine import may not compatibility (It require export correct spine version is 3.8.79). You can solve it by import data in unity 2019 project then copy generated assets to your project.
 
 ### Why generated axie be wrong color?
 - Please set color space to `Gamma` 
 
+### How to solve error `The type or namespace name 'Newtonsoft' could be not found`?
+- Sometimes the project has imported another version of Newtonsoft and will be conflicted. You can solve it by open `Packages/manifest.json` then edit version of `"com.unity.nuget.newtonsoft-json": "2.0.0",` to `2.0.2` or `3.0.2`
