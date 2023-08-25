@@ -81,7 +81,7 @@ TextureImporter:
       213: 7897794080140760568
     second: tail
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -102,6 +102,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,6 +141,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -179,6 +181,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -748,6 +762,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      back: 1187961194834725857
+      ball: -7600441579368616308
+      body: 233227185538982242
+      body-pattern: 6135691777614262335
+      ear-left: 5545147254357275158
+      ear-right: -6862386262013699167
+      eyes: -7498823661647850892
+      eyes-angry: 1534718229165132672
+      eyes-happy: -866099872618648917
+      eyes-shut: 692302214122493905
+      horn: -388296302578812339
+      leg-back-left: -7707663506684876287
+      leg-back-left-long: 8503026536271068374
+      leg-back-left-stretch: 6206432082478095655
+      leg-front-left: 4108247436540166583
+      leg-front-left-long: -2441097488650065450
+      leg-front-left-stretch: -3447812017238691176
+      leg-front-right: -3227158005277945837
+      leg-front-right-long: 3988013426477336548
+      leg-front-right-stretch: -916737114345314152
+      mouth: 5497857753363024451
+      mouth-bite: 175797113478569243
+      mouth-open: 8949631565752690699
+      mouth-smile: 2330498477103881012
+      shadow: -209143576518600603
+      tail: 7897794080140760568
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
