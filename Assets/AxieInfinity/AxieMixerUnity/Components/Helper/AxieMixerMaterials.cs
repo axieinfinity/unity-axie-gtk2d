@@ -108,7 +108,10 @@ namespace AxieMixer.Unity {
         static List<Material> LoadMaterials(SplatAtlasStuff atlasStuff, Material baseMaterial)
         {
             List<Material> materials = new List<Material>();
-            string[] texList = atlasStuff.atlasAssetText.Split('\n').Where(x => x.Contains(".png")).Select(x => x.Replace(".png", "")).ToArray();
+            string atlasStr = atlasStuff.atlasAssetText;
+            atlasStr = atlasStr.Replace("\r", "");
+
+            string[] texList = atlasStr.Split('\n').Where(x => x.Contains(".png")).Select(x => x.Replace(".png", "")).ToArray();
             foreach (var texName in texList)
             {
                 var material = new Material(baseMaterial);
