@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/AxieInfinity/AxieMixerUnity/Demo/0. Loading Screen/Loading.unity
-    guid: e9ede3c3dfc7148409d176224d6293ba
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/_Scenes/DemoMixer.unity
     guid: 2cda990e2423bbf4892e6590ba056729

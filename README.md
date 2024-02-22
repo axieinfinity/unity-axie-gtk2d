@@ -1,5 +1,9 @@
 # Axie Infinity IP - Tool Kit 2D
 
+## New update
+- Starter: Xia, Bing, Noir, Rouge
+- Axie NFT lv 2
+
 ## Axie
 The shared feature of all Axies to distinguish them from other creatures is that they always have 6 fixed parts on their body: `eyes`, `mouth`, `horns`, `ears`, `back` and `tail`. These body parts' looks are often very random.
 Based on biological characteristics, the Axies are divided into 6 main races including: `Beast`, `Aquatic`, `Plant`, `Bird`, `Bug` , `Reptile`
@@ -12,6 +16,7 @@ Starter axie is mascot with fixed genes and can't breed. We recommend to used th
 `Axie Generator Tool Kit 2D` is a tool provided by Sky Mavis, which transform the data of Axie's binary gene data decoder into body information, parts, colors, ..
 - For Usage please follow this repo [mixer-unity](https://github.com/axieinfinity/mixer-unity) from github
 ![Axie Generator Tool Kit 2D](images/ntf-axie.png?raw=true "Axie Generator Tool Kit 2D")
+![Axie LV2](images/axie-lv2.png?raw=true "Axie LV2")
 
 ## Chimera
 Like the Axies, the Chimeras also have many characteristics that are a combination of many creatures, however, they can not be divided into specific classes like the Axies. Compared to the Axies, the Chimera's appearance seems more chaotic and not following any rules.

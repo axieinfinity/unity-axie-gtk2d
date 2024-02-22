@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using AxieCore.AxieMixer;
 using Spine.Unity;
 using UnityEngine;
@@ -34,6 +33,33 @@ namespace AxieMixer.Unity
 
         public Axie2dBuilderResult BuildSpineAdultCombo(Dictionary<string, string> adultCombo, byte colorVariant, float scale, bool isGraphic = false)
         {
+            if (adultCombo.ContainsKey("back.lv2"))
+            {
+                adultCombo["back"] = adultCombo["back"].Replace("-lv2", "") + "-lv2";
+            }
+            if (adultCombo.ContainsKey("ears.lv2"))
+            {
+                adultCombo["ears"] = adultCombo["ears"].Replace("-lv2", "") + "-lv2";
+                adultCombo["ear"] = adultCombo["ear"].Replace("-lv2", "") + "-lv2";
+            }
+            if (adultCombo.ContainsKey("eyes.lv2"))
+            {
+                adultCombo["eyes"] = adultCombo["eyes"].Replace("-lv2", "") + "-lv2";
+            }
+            if (adultCombo.ContainsKey("horn.lv2"))
+            {
+                adultCombo["horn"] = adultCombo["horn"].Replace("-lv2", "") + "-lv2";
+            }
+            if (adultCombo.ContainsKey("mouth.lv2"))
+            {
+                adultCombo["mouth"] = adultCombo["mouth"].Replace("-lv2", "") + "-lv2";
+            }
+
+            if (adultCombo.ContainsKey("tail.lv2"))
+            {
+                adultCombo["tail"] = adultCombo["tail"].Replace("-lv2", "") + "-lv2";
+            }
+
             var accessories = adultCombo.Where(x => x.Key.StartsWith("accessory-")).ToList();
             foreach(var p in accessories)
             {
@@ -113,6 +139,8 @@ namespace AxieMixer.Unity
                     adultCombo.Add(p.Key, p.Value);
                 }
             }
+
+         
             byte colorVariant = (byte)axieGenesStuff.GetAxieColorVariant(bodyStructure);
 
             return BuildSpineAdultCombo(adultCombo, colorVariant, scale, isGraphic);
@@ -137,12 +165,7 @@ namespace AxieMixer.Unity
                     Scale = scale
                 };
                 var loadedSkeletonData = skeletonMixed.ReadSkeletonData(mixed, true);
-
-                //phuongnk - cheat to call internal function
-                skeletonDataAsset.skeletonJSON = new TextAsset();
-                Type thisType = skeletonDataAsset.GetType();
-                var theMethod = thisType.GetMethod("InitializeWithData", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
-                theMethod.Invoke(skeletonDataAsset, new object[] { loadedSkeletonData });
+                skeletonDataAsset.InitializeWithData(loadedSkeletonData);
 
                 return skeletonDataAsset;
             }
