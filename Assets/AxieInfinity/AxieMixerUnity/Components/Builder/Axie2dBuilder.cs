@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using AxieCore.AxieMixer;
 using Spine.Unity;
 using UnityEngine;
@@ -165,8 +166,13 @@ namespace AxieMixer.Unity
                     Scale = scale
                 };
                 var loadedSkeletonData = skeletonMixed.ReadSkeletonData(mixed, true);
-                skeletonDataAsset.InitializeWithData(loadedSkeletonData);
 
+                //phuongnk - cheat to call internal function
+                skeletonDataAsset.skeletonJSON = new TextAsset();
+                Type thisType = skeletonDataAsset.GetType();
+                var theMethod = thisType.GetMethod("InitializeWithData", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
+                theMethod.Invoke(skeletonDataAsset, new object[] { loadedSkeletonData });
+                //skeletonDataAsset.InitializeWithData(loadedSkeletonData);
                 return skeletonDataAsset;
             }
             catch (Exception ex)
