@@ -1,8 +1,4 @@
-﻿// Upgrade NOTE: upgraded instancing buffer 'InstanceProperties' to new syntax.
-
-// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
-
-Shader "Custom/Texture Splatting Graphic Palette" {
+﻿Shader "Custom/Texture Splatting Graphic Linear Palette" {
 
 	Properties {
 		[NoScaleOffset] _MainTex ("Main Tex", 2D) = "white" {}
@@ -19,16 +15,9 @@ Shader "Custom/Texture Splatting Graphic Palette" {
 
 		[HideInInspector] _ColorMask ("Color Mask", Float) = 15
 
+		_ColorVariant ("Color Variant", Range(0.0, 58.0)) = 0.0
+		_ColorShift ("Color Shift", Range(0.0, 2.0)) = 0.0
 		[Toggle(UNITY_UI_ALPHACLIP)] _UseUIAlphaClip ("Use Alpha Clip", Float) = 0
-
-		// Outline properties are drawn via custom editor.
-		[HideInInspector] _OutlineWidth("Outline Width", Range(0,8)) = 3.0
-		[HideInInspector] _OutlineColor("Outline Color", Color) = (1,1,0,1)
-		[HideInInspector] _OutlineReferenceTexWidth("Reference Texture Width", Int) = 1024
-		[HideInInspector] _ThresholdEnd("Outline Threshold", Range(0,1)) = 0.25
-		[HideInInspector] _OutlineSmoothness("Outline Smoothness", Range(0,1)) = 1.0
-		[HideInInspector][MaterialToggle(_USE8NEIGHBOURHOOD_ON)] _Use8Neighbourhood("Sample 8 Neighbours", Float) = 1
-		[HideInInspector] _OutlineMipLevel("Outline Mip Level", Range(0,3)) = 0
 	}
 
 	SubShader {
@@ -72,7 +61,9 @@ Shader "Custom/Texture Splatting Graphic Palette" {
 			float4 _MainTex_ST;
 
 			sampler2D _LineTex, _Splat0Tex, _Splat1Tex, _SwapTex;
-			
+			float _ColorVariant;
+			float _ColorShift;
+
 			struct VertexData {
 				float4 position : POSITION;
 				float2 uv : TEXCOORD0;
@@ -84,7 +75,7 @@ Shader "Custom/Texture Splatting Graphic Palette" {
 				float4 position : SV_POSITION;
 				float2 uv : TEXCOORD0;
 				float4 vertexColor : COLOR;
-				UNITY_VERTEX_INPUT_INSTANCE_ID
+				//UNITY_VERTEX_INPUT_INSTANCE_ID
 			};
 
 			Interpolators MyVertexProgram (VertexData v) {
@@ -100,12 +91,11 @@ Shader "Custom/Texture Splatting Graphic Palette" {
 			}
 
 			float4 MyFragmentProgram (Interpolators i) : SV_TARGET {
-				float4 dstColor1 = tex2D(_SwapTex, float2(i.vertexColor.r,  0.0 / 256.0 + i.vertexColor.g));
-				float4 dstColor2 = tex2D(_SwapTex, float2(i.vertexColor.r,  1.0 / 256.0 + i.vertexColor.g));
-				float4 dstColor3 = tex2D(_SwapTex, float2(i.vertexColor.r,  2.0 / 256.0));
-				float4 dstColor4 = tex2D(_SwapTex, float2(i.vertexColor.r,  3.0 / 256.0));
-				float4 dstColor5 = tex2D(_SwapTex, float2(i.vertexColor.r,  4.0 / 256.0));
-
+				float4 dstColor1 = tex2D(_SwapTex, float2(_ColorVariant/ 256.0,  0.0 / 256.0 + _ColorShift / 256.0));
+				float4 dstColor2 = tex2D(_SwapTex, float2(_ColorVariant/ 256.0,  1.0 / 256.0 + _ColorShift / 256.0));
+				float4 dstColor3 = tex2D(_SwapTex, float2(_ColorVariant/ 256.0,  2.0 / 256.0));
+				float4 dstColor4 = tex2D(_SwapTex, float2(_ColorVariant/ 256.0,  3.0 / 256.0));
+				float4 dstColor5 = tex2D(_SwapTex, float2(_ColorVariant/ 256.0,  4.0 / 256.0));
 
 				float4 mainColor = tex2D(_MainTex, i.uv);
 				float4 lineColor = tex2D(_LineTex, i.uv);

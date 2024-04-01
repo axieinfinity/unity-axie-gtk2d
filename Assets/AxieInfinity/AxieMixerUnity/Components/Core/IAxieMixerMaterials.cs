@@ -18,5 +18,6 @@ namespace AxieMixer.Unity
         IAxieGenesStuff GetGenesStuff(AxieFormType formType);
         IAxieMixerStuff GetMixerStuff(AxieFormType formType);
         Material GetSampleGraphicMaterial(AxieFormType formType);
+        Material GetSampleLinearGraphicMaterial(AxieFormType formType, byte colorVariant, byte colorShift);
     }
 }

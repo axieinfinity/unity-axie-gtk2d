@@ -10,6 +10,11 @@
       "name": "graphic",
       "shaderName": "Custom/Texture Splatting Graphic Palette",
       "keywords": []
+    },
+    {
+      "name": "graphic-linear",
+      "shaderName": "Custom/Texture Splatting Graphic Linear Palette",
+      "keywords": []
     }
   ]
 }

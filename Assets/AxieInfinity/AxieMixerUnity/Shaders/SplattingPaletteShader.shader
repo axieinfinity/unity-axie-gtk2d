@@ -56,11 +56,11 @@
 			}
 
 			float4 MyFragmentProgram (Interpolators i) : SV_TARGET {
-				float4 dstColor1 = tex2D(_SwapTex, float2(i.vertexColor.r,  0.0 / 8.0 + i.vertexColor.g * 256.0 / 8.0));
-				float4 dstColor2 = tex2D(_SwapTex, float2(i.vertexColor.r,  1.0 / 8.0 + i.vertexColor.g * 256.0 / 8.0));
-				float4 dstColor3 = tex2D(_SwapTex, float2(i.vertexColor.r,  2.0 / 8.0));
-				float4 dstColor4 = tex2D(_SwapTex, float2(i.vertexColor.r,  3.0 / 8.0));
-				float4 dstColor5 = tex2D(_SwapTex, float2(i.vertexColor.r,  4.0 / 8.0));
+				float4 dstColor1 = tex2D(_SwapTex, float2(i.vertexColor.r,  0.0 / 256.0 + i.vertexColor.g));
+				float4 dstColor2 = tex2D(_SwapTex, float2(i.vertexColor.r,  1.0 / 256.0 + i.vertexColor.g));
+				float4 dstColor3 = tex2D(_SwapTex, float2(i.vertexColor.r,  2.0 / 256.0));
+				float4 dstColor4 = tex2D(_SwapTex, float2(i.vertexColor.r,  3.0 / 256.0));
+				float4 dstColor5 = tex2D(_SwapTex, float2(i.vertexColor.r,  4.0 / 256.0));
 
 				float4 mainColor = tex2D(_MainTex, i.uv);
 				float4 lineColor = tex2D(_LineTex, i.uv);

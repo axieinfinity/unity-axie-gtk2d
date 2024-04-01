@@ -19,10 +19,12 @@ namespace AxieMixer.Unity
     public class Axie2dBuilder
     {
         public IAxieMixerMaterials axieMixerMaterials { get; private set; }
+        public bool isGraphicLinear { get; private set; }
 
         public void Init(IAxieMixerMaterials axieMixerMaterials)
         {
             this.axieMixerMaterials = axieMixerMaterials;
+            this.isGraphicLinear = QualitySettings.activeColorSpace == ColorSpace.Linear;
         }
 
         public int GetSampleColorVariant(AxieCore.AxieMixer.CharacterClass characterClass, int colorValue)
@@ -95,7 +97,8 @@ namespace AxieMixer.Unity
             else
             {
                 builderResult.skeletonDataAsset = skeletonDataAsset;
-                builderResult.sharedGraphicMaterial = axieMixerMaterials.GetSampleGraphicMaterial(AxieFormType.Normal);
+                builderResult.sharedGraphicMaterial = isGraphicLinear ? axieMixerMaterials.GetSampleLinearGraphicMaterial(AxieFormType.Normal, colorVariant, 0) : //phuongnk - tmp solution shift value is not correct
+                                                                        axieMixerMaterials.GetSampleGraphicMaterial(AxieFormType.Normal);
             }
             return builderResult;
         }
