@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.skymavis.axiemixer.unity": "https://github.com/axieinfinity/mixer-unity.git?path=/Packages/com.skymavis.axiemixer.unity#v0.6.3",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.1",
     "com.unity.ide.visualstudio": "2.0.20",

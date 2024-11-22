@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.skymavis.axiemixer.unity": {
+      "version": "https://github.com/axieinfinity/mixer-unity.git?path=/Packages/com.skymavis.axiemixer.unity#v0.6.3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "c30cce88023566b1cbe0c93ab6db697495397564"
+    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,

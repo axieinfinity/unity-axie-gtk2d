@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using AxieCore.AxieMixer;
-using AxieMixer.Unity;
 using Newtonsoft.Json.Linq;
+using SkyMavis.AxieMixer;
+using SkyMavis.AxieMixer.Unity;
 using Spine.Unity;
 using UnityEngine;
 using UnityEngine.Networking;
