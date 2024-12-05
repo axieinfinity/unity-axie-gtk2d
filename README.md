@@ -44,3 +44,6 @@ Common materials and items that can be used for many kind of games.
 
 ### How to solve error `The type or namespace name 'Newtonsoft' could be not found`?
 - Sometimes the project has imported another version of Newtonsoft and will be conflicted. You can solve it by open `Packages/manifest.json` then edit version of `"com.unity.nuget.newtonsoft-json": "2.0.0",` to `2.0.2` or `3.0.2`
+
+### How to solve error `Axies missing' when building?
+- Navigate to Project Settings, select Graphics, then Shader Loading, and adjust the Preloaded Shaders size to 1. Subsequently, insert the AxieMixerShaderVariants as Element 0.
